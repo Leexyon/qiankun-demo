@@ -1,0 +1,45 @@
+@import "~@/style/mixin.scss";
+$grayBg: #f5f5f5;
+$themeBg: #fff;
+$themeColor: #1890ff;
+
+$shadowColor: #ddd;
+
+$nameColor: rgba(0, 0, 0, 0.85);
+$titleColor: #333;
+$paragraphColor: #666;
+$tipColor: #999;
+
+$boderColor: #DEDEDE;
+
+$sucessColor: #52C41A;
+
+
+/*修改滚动条样式*/
+div::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+    /**/
+}
+
+div::-webkit-scrollbar-track {
+    background: rgb(239, 239, 239);
+    border-radius: 2px;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+    background: #666;
+    width: 10px;
+    cursor: pointer;
+}
+
+div::-webkit-scrollbar-corner {
+    background: #179a16;
+}
+
